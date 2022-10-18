@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>天気予報</title>
+    <meta name="description" content="毎日の気象情報をお知らせします">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="web-fonts.css">
+    <!-- ここでGoogle Fontsを読み込みます -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <p>デフォルトのフォントです</p>
+      <p class="css/google-fonts">Google Fontsです</p>
+      <h1>天気予報</h1>
+      <!-- ナビゲーション -->
+      <nav>
+        <a href="layout.html">ホーム</a>
+        <a href="https://www.google.com">スポーツ</a>
+        <a href="https://www.google.com">経済</a>
+        <a href="https://www.google.com">天気</a>
+      </nav>
+    </header>
+
+    </header>
+    <!-- main -->
+    <main>
+      <!-- 記事を作成 -->
+      <article>
+        <!-- 複数の記事を区切りをつける -->
+        <section>
+          <h2>速報</h2>
+          <h3>動物園でゾウの赤ちゃん誕生！</h3>
+          <p>市内の動物園でゾウの双子の赤ちゃんが生まれました。赤ちゃんの名前を募集中です。</p>
+        </section>
+        <section>
+          <h2>気象情報</h2>
+          <h3>全国の天気</h3>
+          <p>全国的に晴れますが、山間部で一時的に雪が降るところがあります。</p>
+        </section>
+      </article>
+      <!-- audio -->
+      <audio src="audiotag.mp3" controls></audio>
+      <!-- video -->
+      <video src="videotag.mp4" controls></video>
+
+      <h2>今日の天気</h2>
+      <hr>
+      <p>よく晴れるでしょう</p>
+      <!-- <p>このホームページは全国の天気予報を紹介します。</p> -->
+      <!-- <p>4時間毎に最新情報に更新します。</p> -->
+
+      <h1>ランチメニュー</h1>
+      <table border="1">
+        <tr>
+          <th>平日</th>
+          <th>土日祝日</th>
+          </tr>
+        <tr>
+          <td>Aランチ：唐揚げ定食</td>
+          <td>Aランチ：コロッケ定食</td>
+          </tr>
+        <tr>
+          <td>Bランチ：ハンバーグ定食</td>
+          <td>Bランチ：海鮮丼</td>
+          </tr>
+        </table>
+        <form action="127.0.0.1">
+          <label>氏名</label>
+          <input type="text" placeholder="名前を入力してください">
+          <br>
+
+          <label>年代</label>
+          <select>
+            <option>10代以下</option>
+            <option>20代</option>
+            <option>30代</option>
+            <option>40代以上</option>
+            </select>
+          <br>
+
+          <label>お問い合わせ内容</label>
+          <textarea></textarea>
+          <br>
+
+          <label>男性</label><input type="radio" name="gender">
+          <label>女性</label><input type="radio" name="gender">
+          <label>その他</label><input type="radio" name="gender">
+          <br>
+
+          <label>利用規約に同意する</label>
+          <input type="checkbox">
+          <br>
+          <br>
+
+          <input type="submit" value="送信">
+          <input type="reset" value="リセット">
+        </form>
+
+        <hr>
+    </main>
+    <!-- footer -->
+    <footer>
+      copyright IITENKI inc. All rights reserved.
+    </footer>
+  </body>
+</html>

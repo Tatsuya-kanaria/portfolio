@@ -1,0 +1,20 @@
+.flexbox-container {
+  /* 横並び */
+  display: flex;
+  /* 右から左へ */
+  /* flex-direction: row-reverse; */
+  /* 折り返し */
+  /* flex-wrap: wrap; */
+  /* 「flex-directionプロパティの値 flex-wrapプロパティの値」の順で一括指定します */
+  flex-flow: row wrap;
+  /* 中央揃え */
+  justify-content: center;
+  padding: 5px;
+  background-color: lightcyan;
+}
+
+.flexbox-item {
+  padding: 5px;
+  margin: 5px;
+  background-color: orange;
+}
