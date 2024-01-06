@@ -207,7 +207,7 @@ img {
 .skill-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: -50px;
 }
 
@@ -248,9 +248,12 @@ img {
   margin: 0 auto;
 }
 .profile-img {
-  width: 20%;
-  margin-right: 30px;
+  width: 150px;
+  height: 150px;
+  margin-right: 50px;
   border-radius: 50%;
+  border: 5px solid rgba(0, 0, 0, 0.0);
+  box-shadow: 5px 5px 30px rgba(116, 117, 127, 0.3);
 }
 .profile-img img {
   border-radius: 50%;

@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>お問い合せ</title>
+</head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxxxx-x"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-xxxxxxxxxx-x');
+</script> -->
+
+<!-- Google Form -->
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeDnBX2YUjHTrNXGheSzJK214VgCW4f6AjYmuAVouBHfMjsWA/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;" class="c-form">
+
+    <link rel="stylesheet" href="/css/form.css" />
+
+    <h1 style="text-align: center;">お問い合せ</h1>
+
+    <p style="text-align: center; margin: 20px auto">
+		下記の項目を入力して、「送信する」のボタンを押して下さい。<br>必須の欄は必ず全てご記入下さい。
+	</p>
+
+    <p style="text-align: center; margin: 40px auto">
+		※回答までには1週間程度かかる場合もございます。御了承下さい。
+	</p>
+
+    <form class="c-form">
+        <div class="c-form__item">
+            <label class="c-form__label" for="field-name">名前・会社名<span class="c-form__required">必須</span></label>
+            <input name="entry.1696458051" class="c-form__input" id="field-name" placeholder="氏名" type="text" required="required" />
+        </div>
+        <div class="c-form__item">
+            <label class="c-form__label" for="field-mail">メールアドレス<span class="c-form__required">必須</span></label>
+            <input name="entry.1897347557" class="c-form__input" id="field-mail" placeholder="sample@gmail.com" type="email" required="required" />
+        </div>
+        <div class="c-form__item">
+            <label class="c-form__label" for="field-message">お問い合わせ内容</label>
+            <textarea name="entry.905676390" class="c-form__input" id="field-message" placeholder="お問い合わせ内容"></textarea>
+        </div>
+        <div class="c-form__submit">
+            <button type="submit">送信する</button>
+        </div>
+    </form>
+
+    <script type="text/javascript">
+        let submitted = false;
+    </script>
+
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='./thanks.html';}"></iframe>
+</html>
