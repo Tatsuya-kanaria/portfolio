@@ -6,7 +6,7 @@
     <meta name="description" content="お問い合わせフォームです。">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>お問い合せ</title>
-    <link href="../css/form.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="/form.css" media="all" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeDnBX2YUjHTrNXGheSzJK214VgCW4f6AjYmuAVouBHfMjsWA/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;" class="c-form">
@@ -45,7 +45,7 @@
         let submitted = false;
     </script>
 
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='/pages/contact/thanks.html';}"></iframe>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='./thanks.html';}"></iframe>
 </body>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxxxx-x"></script>
